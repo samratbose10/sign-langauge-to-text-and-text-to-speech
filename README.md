@@ -22,7 +22,7 @@ Make sure you have Python 3.10.0 installed on your system. To set up the project
 1. **Clone the repository**:
 
     ```bash
-    git clone <https://github.com/samratbose10/sign-langauge-to-text-and-text-to-speech.git>
+    git clone https://github.com/samratbose10/sign-langauge-to-text-and-text-to-speech.git
     ```
 
 2. **Create a virtual environment**:
@@ -74,7 +74,7 @@ Make sure you have Python 3.10.0 installed on your system. To set up the project
    
    Before running the real-time recognition system, you need to train the model using your dataset, and use webcam for the better results.
 
-   - Prepare the dataset in the `dataset/` folder. The dataset should be structured with subdirectories for each letter (A-Z), each containing images of corresponding hand gestures.After running the imagecap.py (this is basically the capturing your gesture photo) you data will be saved in a folder called dataset and after that run python train_model.py .
+   - Prepare the dataset in the `dataset/` folder. The dataset should be structured with subdirectories for each letter (A-Z), each containing images of corresponding hand gestures.After running the imagecap.py (this is basically the capturing your gesture photo) you data will be saved in a folder called dataset and after that run python train_model.py . 
 
    - Run the following command to train the model:
 
